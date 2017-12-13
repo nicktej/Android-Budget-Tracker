@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Penz</string>
+    <string-array name="currency_array">
+        <item>AUD</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>ZAR</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="itemtypes_array">
+        <item>Groceries/Meals Out</item>
+        <item>Entertainment</item>
+        <item>Clothing</item>
+        <item>Rent/Utilities/Transportation</item>
+        <item>Miscellaneous</item>
+    </string-array>
+    <string name="title_activity_item_list">ItemListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_item">New Expense</string>
+    <string name="txt_item_added">Item added</string>
+    <string name="txt_add_cancel">Item adding cancelled</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="txt_item_edited">Item edited!</string>
+    <string name="txt_about">This app was made for my mom!</string>
+    <string name="txt_help">Use the touch controls to work with the application.</string>
+    <string name="dollar">$</string>
+    <string name="action_hide">Hide</string>
+    <string name="total">Total: $</string>
+    <string name="action_settings">Settings</string>
+</resources>

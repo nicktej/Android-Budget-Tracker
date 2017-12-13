@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="From:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerSend"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency_array"/>
+
+    <TextView
+        android:text="To:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerReceive"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency_array"/>
+
+    <EditText
+        android:id="@+id/etValue"
+        android:hint="Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:text="Convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
